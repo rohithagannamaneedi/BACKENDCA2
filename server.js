@@ -12,7 +12,7 @@ const users = [
 ]
 
 app.get("/",(req,res)=>{
-    res.send("server running")
+    res.send("Server running on port 3000")
 })
 
 app.put("/user",(req,res)=>{
